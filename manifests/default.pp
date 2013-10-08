@@ -62,6 +62,7 @@ php::module { 'php5-intl': }
 php::module { 'php5-mcrypt': }
 php::module { 'php5-memcache': }
 php::module { 'php5-xmlrpc': }
+php::module { 'php5-sqlite': }
 
 class { 'php::devel':
   require => Class['php'],

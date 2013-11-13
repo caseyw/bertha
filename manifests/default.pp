@@ -189,3 +189,6 @@ apache::vhost { 'phpmyadmin':
   require     => Class['phpmyadmin'],
 }
 
+class { 'elasticsearch': 
+  require => Class['java']
+}
